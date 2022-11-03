@@ -2,12 +2,12 @@
     position: relative;
 }
 .resetTextArea {
-    position: absolute;
+    position: absolute !important;
     bottom: 60px;
     right: 10px;
 }
 .resetTextArea:hover {
-    background-color: rgb(61, 212, 161);
+    background-color: rgb(61, 212, 161) !important;
 }
 .addBtn {
     background-color: rgb(236, 236, 236);
@@ -19,7 +19,7 @@
 }
 .postsCounter {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin: 0 50px 0 0;
     font-weight: 500;
 }

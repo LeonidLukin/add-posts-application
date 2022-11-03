@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Button, Form, Input } from 'antd';
 import { SaveOutlined, UndoOutlined } from '@ant-design/icons';
-import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
+
 import css from './AppPostForm.module.css';
 
 const layout = {
